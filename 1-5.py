@@ -1,0 +1,12 @@
+length = input("length is = ")
+height = input("height is = ")
+i = int(length)
+j = int(height)
+print("*"*i)
+for n in range(1,(j-1)):
+    print(" "*n, end="")
+    print("*", end="")
+    print(" "*(i-2), end="")
+    print("*")
+print(" "*(j-1), end="")
+print("*"*i)
